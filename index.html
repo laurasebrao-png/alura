@@ -11,7 +11,7 @@
             background-color: #9370DB;
             color: #FFFAFA;
             text-align: center;
-            max-wigth: 800px;
+            max-width: 800px;
             margin: 0 auto;
             padding: 16px; 
             border: 5px solid #DDA0DD;
@@ -20,13 +20,13 @@
             background-color: #FFFAFA; 
             color: #9370DB;
             text-align: center;
-            max-wigth: 800px;
+            max-width: 800px;
             margin: 0 auto;
             padding: 16px;  
             display: flex;
         }
         blockquote{
-          disply: flex;
+          display: flex;
           background-color: #FFFAFA; 
           color: #9370DB;
           text-align: left;
@@ -36,9 +36,9 @@
         }
             
         img{
-            mrgin-top: 20px;
+            margin-top: 20px;
             width: 150px;
-            heigth:150px;
+            height:150px;
         }
     </style>
 </head>
@@ -67,7 +67,7 @@
         const botoes = document.querySelectorAll("button");
         
         botoes.forEach(function(botao) {
-            botao.ddEventListener("click", botaoClicado);
+            botao.addEventListener("click", botaoClicado);
 
         function botaoClicado(){ 
         console.log;
