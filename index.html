@@ -50,18 +50,19 @@
     </main> 
 </body>
     <script>
-        const botoes = document.querySelectorAll ("button");
+        const botoes = document.querySelectorAll("button");
         
-        botoes.forEach(
-            
-        )
-        botao.addEventListener("click", botaoClicado);
+        botoes.forEach(function(botao) {
+            botao.ddEventListener("click", botaoClicado);
 
         function botaoClicado(){ 
-        console.log("fui clicado");
+        console.log;
         let texto = botao.querySelector ("span");
+        if (texto) {
         texto.textContent++;
-  }
+        }
+      }
+  });
         
     </script>
 </html>
